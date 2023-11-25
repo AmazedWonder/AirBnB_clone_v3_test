@@ -4,6 +4,8 @@ This readme contains the following:
 # AirBnB clone - MYSQL
 # AirBnB clone - Deploy static
 ### (DevOps, Python, SysAdmin, Scripting, CI/CD)
+# AirBnB clone - Web framework
+### (Python, Back-end, Webserver, Flask)
 
 <center> <h1>HBNB - The Console</h1> </center>
 
@@ -467,10 +469,8 @@ amenity_id: b80aec52-d0c9-420a-8471-3254572954b6
 amenity_id: b80aec52-d0c9-420a-8471-3254572954b6
 guillaume@ubuntu:~/AirBnB_v2$ 
 ```
----
-# AirBnB clone - Deploy static
 
----
+<center> <h1>AirBnB - Deploy static</h1> </center>
 ```
 For this project, these concepts were looked at:
 ```
@@ -488,5 +488,11 @@ In this deployment project, I will be deploying your web_static work. I will use
 | 1: Compress before sending | [1-pack_web_static.py](./1-pack_web_static.py) | Fabric script that generates a .tgz archive from the contents of the web_static
 | 2:  Deploy archive! | [2-do_deploy_web_static.py](./2-do_deploy_web_static.py) | Fabric script (based on the file 1-pack_web_static.py) that distributes an archive to the web servers
 | 3:  Full deployment | [3-deploy_web_static.py](./3-deploy_web_static.py) | Fabric script (based on the file 2-do_deploy_web_static.py) that creates and distributes an archive to the web servers
+```
 
+```
+<center> <h1>AirBnB - Web framework</h1> </center>
+```
+This project focuses on creating first web server in Python and making static HTML file dynamic by using objects stored in a file or database. 
 
+```
